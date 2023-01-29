@@ -6,7 +6,7 @@ const Contact = () => {
     const navigation = useNavigation()
   return (
     <SafeAreaView>
-      <Text>Contact</Text>
+      <Text>Welcome to the contact page!</Text>
       <Button onPress={()=>navigation.navigate("Home")} title="Go to Home"></Button>
     </SafeAreaView>
   )

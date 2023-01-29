@@ -7,7 +7,7 @@ const About = () => {
 
   return (
     <SafeAreaView>
-      <Text>About</Text>
+      <Text>Welcome to the about page!</Text>
       <Button onPress={()=>navigation.navigate("Contact")} title="Go to Contact"></Button>
     </SafeAreaView>
   )

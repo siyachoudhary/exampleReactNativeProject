@@ -6,7 +6,7 @@ const Home = () => {
     const navigation = useNavigation()
   return (
     <SafeAreaView>
-      <Text>Home</Text>
+      <Text>Welcome to the home page!</Text>
       <Button onPress={()=>navigation.navigate("About")} title="Go to About"></Button>
     </SafeAreaView>
   )
