@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, Button } from 'react-native'
+import { View, Text, SafeAreaView, Button, StyleSheet } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 
@@ -17,7 +17,9 @@ const styles = StyleSheet.create({
       marginTop: 50,
       color: 'blue',
       fontWeight: 'bold',
-      fontSize: 30,
+      fontSize: 40,
+      padding: 10,
+      textAlign: "center",
     }
   });
   
