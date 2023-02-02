@@ -15,7 +15,7 @@ const Contact = () => {
 const styles = StyleSheet.create({
     title: {
       marginTop: 50,
-      color: 'green',
+      color: 'purple',
       fontWeight: 'bold',
       fontSize: 40,
       padding: 10,
