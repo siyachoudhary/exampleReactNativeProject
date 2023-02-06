@@ -2,14 +2,12 @@ import { View, Text, SafeAreaView, Button, StyleSheet } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/native'
 
-const Home = () => {
+const StudySessions = () => {
     const navigation = useNavigation()
   return (
     <SafeAreaView>
-      <Text style={styles.title}>Welcome to the home page!</Text>
-      <Button onPress={()=>navigation.navigate("Study Session")} title="Start Study Session"></Button>
-      <Button onPress={()=>navigation.navigate("About")} title="Go to About"></Button>
-
+      <Text style={styles.title}>Welcome to the study sessions page!</Text>
+      <Button onPress={()=>navigation.navigate("Home")} title="Go to Home"></Button>
     </SafeAreaView>
   )
 }
@@ -26,4 +24,4 @@ const styles = StyleSheet.create({
   });
   
 
-export default Home
+export default StudySessions
